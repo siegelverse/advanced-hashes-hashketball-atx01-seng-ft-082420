@@ -165,4 +165,8 @@ def team_names
  end 
  names
 end
+
+def player_number(team_name)
+  game_hash.each do |team, team_data|
+    
 # Write code here
