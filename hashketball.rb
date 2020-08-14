@@ -197,6 +197,7 @@ def big_shoe_rebounds
    team_data[:players].each do |data|
      if data[:shoe] > largest_shoe
        largest_shoe = data[:shoe]
-       player_largest_shoe = data[:shoe]
-       player_rebounds = d
+       player_largest_shoe = data[:player_name]
+       player_rebounds = data[:rebounds]
+       
 # Write code here
